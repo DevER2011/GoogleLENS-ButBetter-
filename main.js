@@ -12,6 +12,7 @@ classifier.classify(video, gotResult);
 function ModelLoaded(){
   console.log("Model is Loaded congrats!!! But... watch out......")
 }
+previous_result = "";
 function gotResult(error, results){
 if(error){
 console.error(error);
